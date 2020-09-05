@@ -7,9 +7,9 @@ Independente do instrumento em questão, é verdade que os alunos de música vã
 As peças possuirão **tags** para classificá-las por nível, por instrumento, período (clássico, barroco), compositor, se sor uma peça solo/quarteto/orquestra e etc, facilitando ao usuário encontrar outras peças com as características que procura.
 
 ## Funcionalidades
-* CRUD Usuários;
-* Adicionar peças para discussão;
-* Adicionar tópicos em peças;
-* Adicionar comentários aos tópicos;
-* Perquisar peças por: nome, compositor, período, instrumento, categoria (solo, dueto) e/ou nível;
-* Classificar peças por dificuldade;
+* CRUD Usuários
+* Adicionar peças para discussão
+* Adicionar tópicos em peças
+* Adicionar comentários aos tópicos
+* Perquisar peças por: nome, compositor, período, instrumento, categoria (solo, dueto) e/ou nível
+* Classificar peças por dificuldade

@@ -1,5 +1,6 @@
 # HighScore 🎼
 O High Score se propõe a ser um fórum de aprendizagem de música, mais especificamente de música clássica.
+
 ~~Ps.: score também significa partitura.
 
 ## A ideia

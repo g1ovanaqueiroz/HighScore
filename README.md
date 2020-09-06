@@ -8,8 +8,9 @@ As peças possuirão **tags** para classificá-las por nível, por instrumento, 
 
 ## Funcionalidades
 * CRUD Usuários
-* Adicionar peças para discussão
 * Adicionar tópicos em peças
 * Adicionar comentários aos tópicos
 * Perquisar peças por: nome, compositor, período, instrumento, categoria (solo, dueto) e/ou nível
 * Classificar peças por dificuldade
+* Adicionar peça à quero aprender
+* Adicionar peça à aprendi

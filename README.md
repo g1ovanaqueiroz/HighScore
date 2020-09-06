@@ -9,11 +9,11 @@ As peças possuirão **tags** para classificá-las por nível, instrumento, per�
 
 ### Funcionalidades
 * CRUD Usuários
-* Perquisar peças
+* Perquisar peça
 * Avaliar peças
 * Salvar peça
-* Adicionar assunto em peças
-* Adicionar comentários
+* Adicionar assunto em peça
+* Adicionar comentário
 * Avaliar comentário
 * Responder comentário
 

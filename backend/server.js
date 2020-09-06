@@ -1,3 +1,3 @@
 /**
- * código backend ficará aqui
+ * iniciando o projeto
  */

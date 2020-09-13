@@ -18,7 +18,7 @@ As peças possuirão **tags** para classificá-las por nível, instrumento, per�
 * Responder comentário
 
 ### Telas
-* **Login**: tela onde o usuário colocará seu login e senha para logar no sistema. Haverá um botão para a tela de cadastro e para a tela principal;
+* **Login**: tela onde o usuário colocará seu email e senha para logar no sistema. Haverá um botão para a tela de cadastro e para a tela principal;
 * **Cadastro**: tela onde um novo usuário poderá se cadastrar no sistema. Haverá um botão para a tela de login e para a tela principal;
 * **Pesquisa (Inicial)**: tela principal do sistema, onde se poderá pesquisar por peças e algumas peças mais vistas/avaliadas serão mostradas. Haverá botões para tela de login e cadastro;
 * **Perfil (Usuário)**: tela em que o usuário poderá encontrar suas informações e atualizá-las. Nela também estarão suas peças salvas;

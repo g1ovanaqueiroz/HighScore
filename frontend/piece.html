@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Signup | HighScore</title>
+  <title>Login | HighScore</title>
 
 <!-- Icone da pagina -->
   <link rel="sortcut icon"
@@ -17,24 +17,25 @@
     <fieldset>
       <a href="index.html"><img src="assets/highscore_icon.png" height="60px" style="float:left;" alt="highscore_icon"></a>
       <h2><a href="index.html">HighScore</a></h2>
+      <input type="text" name="pesquisa" size="10" >
+      <input type="submit" name="fav" value="pesquisar"/>
     </fieldset>
   </div>
 
-  <div>
-    <fieldset>
-      <label class="control-label col-sm-2" for="login">E-mail</label>
-      <input name="login" type="text" class="form-control" id="login" size="8" maxlength="20" value="">
-      <label class="control-label col-sm-2" for="login">Senha</label>
-      <input name="senha" type="text" class="form-control" id="senha" size="8" maxlength="20" value="">
-      <label class="control-label col-sm-2" for="login">Confirme sua Senha</label>
-      <input name="senha" type="text" class="form-control" id="senha2" size="8" maxlength="20" value="">
-      <button class="btn btn-primary" type="submit">Cadastrar-me</button>
-    </fieldset>
-  </div>
+  <fieldset>
+    <!-- <legend> Avaliação </legend> -->
+    <label><b> Quão difícil essa peça é:</b>
+        <input type="radio" name="cargo" value="pp" checked/> <b>pp</b>
+        <input type="radio" name="cargo" value="p"/> <b>p</b>
+        <input type="radio" name="cargo" value="mf"/> <b>mf</b>
+        <input type="radio" name="cargo" value="f"/> <b>f</b>
+        <input type="radio" name="cargo" value="fff"/> <b>fff</b>
+    </label>
 
-  <div>
-    <p>Já está cadastrado? <a href="login.html">Login</a></p>
-  </div>
+    <label>
+        <input type="submit" name="fav" value="Avaliar"/>
+    </label>
+</fieldset>
 
   <!-- Rodape -->
   <div class="container well well-sm">

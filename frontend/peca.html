@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Für Elise | HighScore</title>
+
+<!-- Icone da pagina -->
+  <link rel="sortcut icon"
+    href="https://github.com/giovanaBritoOliveira/HighScore/blob/master/frontend/assets/highscore_icon.png?raw=true"
+    type="image/png" />
+</head>
+
+<body>
+  <div>
+    <fieldset>
+      <a href="index.html"><img src="assets/highscore_icon.png" height="60px" style="float:left;" alt="highscore_icon"></a>
+      <h2><a href="index.html">HighScore</a></h2>
+      <input type="text" name="pesquisa" size="10" >
+      <input type="submit" name="fav" value="pesquisar"/>
+    </fieldset>
+  </div>
+
+  <div>
+    <h1><a href="peca.html">Für Elise</a></h1>
+
+    <div class="thumb tright">
+        <img alt="compassos iniciais de fur elise" src="./assets/fur_elise.png" height="300" style="float:left;">
+    </div>
+
+    <div>
+      <b><div>#piano</div> <div>#iniciante</div> <div>#ludwigVanBeethoven</div> <div>#beethoven</div> <div>#solo</div> <div>#classicismo</div> <div>#romantismo</div></b>
+    </div>
+
+    <p>A <i>Bagatela para piano ‘Für Elise’</i>, conhecida também como Para Elisa, em lá menor (WoO 59), de Ludwig van Beethoven é, entre as obras deste compositor, talvez a mais conhecida mundialmente a par da melodia da sua famosa Quinta Sinfonia, em dó menor (1807-1808, op. 67), e da sua «Nona Sinfonia», em ré menor (1823-1824, op. 125).</p>
+
+  </div>
+
+  <div>
+  <fieldset>
+    <!-- <legend> Avaliação </legend> -->
+    <label><b> Quão difícil essa peça é:</b>
+        <input type="radio" name="cargo" value="pp" checked/> <b>pp</b>
+        <input type="radio" name="cargo" value="p"/> <b>p</b>
+        <input type="radio" name="cargo" value="mf"/> <b>mf</b>
+        <input type="radio" name="cargo" value="f"/> <b>f</b>
+        <input type="radio" name="cargo" value="fff"/> <b>fff</b>
+    </label>
+
+    <label>
+        <input type="submit" name="fav" value="Avaliar"/>
+    </label>
+  </fieldset>
+  </div>
+
+  <hr>
+  </br>
+  </br>
+  <div>
+    <fieldset>
+      <legend><b>Iniciar nova discussão</b></legend>
+      <div><label class="control-label col-sm-2" for="assunto"><b>Assunto:</b></label>
+      <input name="assunto" type="text" class="form-control" id="assunto" size="50 " maxlength="20" value=""></div>
+      <div><label class="control-label col-sm-2" for="descricao"><b>Descrição:</b></label>
+      <textarea id="descricao" name="descricao" rows="3" cols="50"> </textarea></div>
+      <button>Adicionar</button>
+    </fieldset>
+  </div>
+
+  <hr>
+  <div>
+    <h2>Discussões abertas</h2>
+  </div>
+
+  <div>
+    <a href="assunto.html">
+      <fieldset>
+        <h3>Compassos 12 ao 15</h3>
+        <p>Estou como confusa com o que fazer nessa parte em que as mãos ficam alternando entre si, porque em todas as peças
+        que aprendi
+        até agora basicamente a mão esquerda só fazia o acompanhamento para a mão direita, que tocava a melodia. Nessa
+        parte
+        é como se a mão esquerda invadisse a parte da mão direita e dividisse a melodia com ela. Alguma dica de como
+        estudar
+        essa parte?</p>
+      </fieldset>
+    </a>
+  </div>
+
+  <!-- Rodape -->
+</br>
+</br>
+  <div class="container well well-sm">
+    &copy; 2020&nbsp;<a href="http://github.com/giovanaBritoOliveira">Giovana Brito Oliveira</a><br>
+    Desenvolvido para a disciplina Princípios de Desenvolvimento WEB/UFCG
+  </div>
+</body>
+</html>

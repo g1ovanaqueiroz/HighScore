@@ -6,8 +6,7 @@ export default class Discussao extends Component {
     super(props);
 
     this.state = {
-      curtido: false,
-      naoCurtido: false
+      curtido: undefined,
     }
 
     this.curtir = this.curtir.bind(this);
@@ -15,22 +14,18 @@ export default class Discussao extends Component {
   }
 
   curtir() {
-    if (!this.state.curtido && !this.state.naoCurtido) {
+    if (!this.state.curtido) {
       this.setState({curtido:true});
-    } else if (this.state.curtido && !this.state.naoCurtido) {
-      this.setState({curtido:false});
-    } else if (!this.state.curtido && this.state.naoCurtido) {
-      this.setState({curtido:true}, {naoCurtido:false})
+    } else if (this.state.curtido) {
+      this.setState({curtido:undefined});
     }
   }
 
   naoCurtir () {
-    if (!this.state.curtido && !this.state.naoCurtido) {
-      this.setState({naoCurtido:true});
-    } else if (!this.state.curtido && this.state.naoCurtido) {
-      this.setState({naoCurtido:false});
-    } else if (this.state.curtido && !this.state.naoCurtido) {
-      this.setState({curtido:false}, {naoCurtido:true})
+    if (this.state.curtido == undefined) {
+      this.setState({curtido:false});
+    } else if (this.state.curtido == false) {
+      this.setState({curtido:undefined});
     }
   }
 

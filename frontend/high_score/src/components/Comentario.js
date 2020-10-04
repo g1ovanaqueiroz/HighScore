@@ -7,30 +7,30 @@ export default class Discussao extends Component {
 
     this.state = {
       curtido: false,
-      nao_curtido: false
+      naoCurtido: false
     }
 
     this.curtir = this.curtir.bind(this);
-    this.nao_curtir = this.nao_curtir.bind(this);
+    this.naoCurtir = this.naoCurtir.bind(this);
   }
 
   curtir() {
-    if (!this.state.curtido && !this.state.nao_curtido) {
+    if (!this.state.curtido && !this.state.naoCurtido) {
       this.setState({curtido:true});
-    } else if (this.state.curtido && !this.state.nao_curtido) {
+    } else if (this.state.curtido && !this.state.naoCurtido) {
       this.setState({curtido:false});
-    } else if (!this.state.curtido && this.state.nao_curtido) {
-      this.setState({curtido:true}, {nao_curtido:false})
+    } else if (!this.state.curtido && this.state.naoCurtido) {
+      this.setState({curtido:true}, {naoCurtido:false})
     }
   }
 
-  nao_curtir () {
-    if (!this.state.curtido && !this.state.nao_curtido) {
-      this.setState({nao_curtido:true});
-    } else if (!this.state.curtido && this.state.nao_curtido) {
-      this.setState({nao_curtido:false});
-    } else if (this.state.curtido && !this.state.nao_curtido) {
-      this.setState({curtido:false}, {nao_curtido:true})
+  naoCurtir () {
+    if (!this.state.curtido && !this.state.naoCurtido) {
+      this.setState({naoCurtido:true});
+    } else if (!this.state.curtido && this.state.naoCurtido) {
+      this.setState({naoCurtido:false});
+    } else if (this.state.curtido && !this.state.naoCurtido) {
+      this.setState({curtido:false}, {naoCurtido:true})
     }
   }
 
@@ -38,10 +38,10 @@ export default class Discussao extends Component {
     return (
       <div className="comentario">
         <fieldset>
-          <h4>{this.props.nome_usuario}</h4>
-          {this.props.comentario_conteudo}
+          <h4>{this.props.nomeUsuario}</h4>
+          {this.props.comentarioConteudo}
           <button onClick={this.curtir}>gostei</button>
-          <button onClick={this.nao_curtir}>não gostei</button>
+          <button onClick={this.naoCurtir}>não gostei</button>
           <input type="text"></input>
           <button>Responder</button>
         </fieldset>

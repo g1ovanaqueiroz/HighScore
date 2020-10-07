@@ -9,7 +9,12 @@ import PecaResumo from './components/Peca/PecaResumo'
 function App() {
   return (
     <div className="peca-resumo">
-      <header><Header></Header></header>
+      <Header></Header>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <PecaResumo></PecaResumo>
       <Footer></Footer>
     </div>

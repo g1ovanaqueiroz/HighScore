@@ -10,7 +10,7 @@ export default function Header() {
         <div className='high-score'><h2><a href='./'>HighScore</a></h2></div>
         <div class='pesquisa'>
           <input type="text" />
-          <button class="submit-lente" type="submit">&#x1F50E;</button>
+          <button class="submit-lente" type="submit"><span role="img" aria-label="imagem de lupa">&#x1F50E;</span></button>
         </div>
         <form/>
       </div>

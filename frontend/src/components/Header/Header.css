@@ -9,7 +9,6 @@
 
 .header-container .header-content img {
   width: 50px;
-  margin: 0;
   top: 50%;
   transform: translate(0, -55%);
   position: absolute;

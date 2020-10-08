@@ -3,12 +3,10 @@ import './PecaResumo.css'
 
 export default function PecaResumo (props) {
   return (
-    <div className='peca-resumo'>
+    <div class='peca-resumo'>
       <a href="./">
-        <fieldset>
-          <h3>{props.nomePeca}</h3>
-          <b>{props.tags}</b>
-        </fieldset>
+        <h3>{props.nomePeca}</h3>
+        <b>{props.tags}</b>
       </a>
     </div>
   );

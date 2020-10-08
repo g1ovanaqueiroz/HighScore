@@ -2,22 +2,23 @@
   width: 100%;
   height: 80px;
   box-shadow: 0 0 2px;
+  position: initial;
   background: midnightblue;
-  position: absolute;
   z-index: 1;
 }
 
 .header-container .header-content img {
   width: 50px;
-  top: 50%;
-  transform: translate(0, -55%);
-  position: absolute;
+  position: relative;
+  top: 13px;
+  left: 4px;
 }
 
 .header-container .header-content .high-score h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  top: 50%;
-  transform: translate(0, 20%);
+  position: relative;
+  bottom: 50px;
 }
 
 .header-container .header-content .high-score a {
@@ -54,8 +55,4 @@
 
 .header-container .header-content .pesquisa {
   width: 200px;
-}
-
-.header-container .header-content .pesquisa .pesquisa input {
-  width: 100%;
 }

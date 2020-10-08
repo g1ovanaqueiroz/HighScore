@@ -7,3 +7,7 @@
   font-size: 90%;
   background-color: whitesmoke;
 }
+
+.footer-content a:hover {
+  color: midnightblue;
+}

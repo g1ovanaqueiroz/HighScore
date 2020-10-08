@@ -8,6 +8,11 @@
   background-color: whitesmoke;
 }
 
+.footer-content a {
+  text-decoration: none;
+  color: black;
+}
+
 .footer-content a:hover {
   color: midnightblue;
 }

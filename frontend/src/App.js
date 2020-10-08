@@ -1,13 +1,10 @@
 import React, {Component} from 'react';
+import Routes from './routes';
 import './App.css';
-import Main from './components/Pages/Main';
-
 
 function App() {
   return (
-    <div className="peca-resumo">
-      <Main></Main>
-    </div>
+      <Routes/>
   );
 }
 

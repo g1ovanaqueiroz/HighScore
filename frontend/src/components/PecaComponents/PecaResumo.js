@@ -4,7 +4,7 @@ import './PecaResumo.css'
 export default function PecaResumo (props) {
   return (
     <div class='peca-resumo'>
-      <a href="./">
+      <a href='/peca'>
         <h3>{props.nomePeca}</h3>
         <b>{props.tags}</b>
       </a>

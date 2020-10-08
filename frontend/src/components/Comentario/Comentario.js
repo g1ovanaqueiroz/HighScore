@@ -21,15 +21,15 @@ export default function Comentario (props) {
 function curtirResult() {
   if (!curtido) {
     return true;
-  } else if (curtido) {
+  } else {
     return undefined;
   }
 }
 
 function naoCurtirResult() {
-  if (curtido == undefined) {
-    return false;
-  } else if (curtido == false) {
+  if (curtido == false) {
     return undefined;
+  } else {
+    return false;
   }
 }

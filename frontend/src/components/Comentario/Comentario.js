@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
 
 export default function Comentario (props) {
+  const [curtido, setCurtido] = useState(undefined)
+  const curtir = () => setCurtido(this.curtirResult())
+  const naoCurtir = () => setCurtido(this.naoCurtirResult())
   return (
     <div className="comentario">
       <fieldset>
         <h4>{props.nomeUsuario}</h4>
         {props.comentarioConteudo}
-        <button onClick={this.curtir}>gostei</button>
-        <button onClick={this.naoCurtir}>não gostei</button>
+        <button onClick={curtir}>gostei</button>
+        <button onClick={naoCurtir}>não gostei</button>
         <input type="text"></input>
         <button>Responder</button>
       </fieldset>
@@ -15,18 +18,18 @@ export default function Comentario (props) {
   );
 }
 
-function curtir() {
-  if (!this.state.curtido) {
-    this.setState({curtido:true});
-  } else if (this.state.curtido) {
-    this.setState({curtido:undefined});
+function curtirResult() {
+  if (!curtido) {
+    return true;
+  } else if (curtido) {
+    return undefined;
   }
 }
 
-function naoCurtir () {
-  if (this.state.curtido == undefined) {
-    this.setState({curtido:false});
-  } else if (this.state.curtido == false) {
-    this.setState({curtido:undefined});
+function naoCurtirResult() {
+  if (curtido == undefined) {
+    return false;
+  } else if (curtido == false) {
+    return undefined;
   }
 }

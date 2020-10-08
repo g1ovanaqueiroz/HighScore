@@ -22,8 +22,9 @@
 }
 
 .header-container .header-content .high-score a {
-  color:#000000;
-  text-decoration:none;
+  color:teal;
+  text-decoration: none;
+  text-shadow: black;
 }
 
 .header-container .header-content .pesquisa input {

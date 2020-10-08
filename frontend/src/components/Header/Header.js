@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import logo from '/home/g/HighScore/frontend/src/HighScoreIcon.png';
+import logo from '../assets/highscore_icon.png';
 
 export default function Header() {
   return (

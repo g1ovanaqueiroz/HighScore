@@ -15,7 +15,7 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
-      <PecaResumo></PecaResumo>
+      <PecaResumo nomePeca="Für Elise" tags="#piano #iniciante #ludwigVanBeethoven #beethoven #solo #classicismo #romantismo"></PecaResumo>
       <Footer></Footer>
     </div>
   );

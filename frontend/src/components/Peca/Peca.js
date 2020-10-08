@@ -1,5 +1,5 @@
 import React from 'react';
-import './PecaResumo.css'
+import './Peca.css'
 
 export default function PecaResumo (props) {
   return (

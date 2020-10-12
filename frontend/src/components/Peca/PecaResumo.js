@@ -3,10 +3,12 @@ import './PecaResumo.css'
 
 export default function PecaResumo (props) {
   return (
-    <div class='peca-resumo'>
+    <div className='container'>
       <a href='/peca'>
-        <h3>{props.nomePeca}</h3>
-        <b>{props.tags}</b>
+        <div class='peca-resumo'>
+          <h3>{props.nomePeca}</h3>
+          <b>{props.tags}</b>
+        </div>
       </a>
     </div>
   );

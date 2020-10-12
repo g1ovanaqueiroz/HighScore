@@ -16,7 +16,7 @@ export default function Comentario (props) {
       </fieldset>
     </div>
   );
-}
+
 
 function curtirResult() {
   if (!curtido) {
@@ -32,4 +32,5 @@ function naoCurtirResult() {
   } else {
     return false;
   }
+}
 }

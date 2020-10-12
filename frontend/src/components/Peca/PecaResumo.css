@@ -1,4 +1,16 @@
-.peca-resumo a {
+.container a {
   text-decoration: none;
   color: black;
+}
+
+.container a:hover {
+  color: midnightblue;
+}
+
+.container .peca-resumo {
+  background-color: whitesmoke;
+}
+
+.container .peca-resumo:hover {
+  background-color: lightgrey;
 }

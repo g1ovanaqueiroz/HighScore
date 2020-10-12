@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Descricao.css'
-import compasso from '../assets/fur_elise.png'
+import compasso from '../Assets/fur_elise.png'
 
 export default function Descricao (props) {
   return (
@@ -18,11 +18,11 @@ export default function Descricao (props) {
         </div>
       </aside>
       <label><b> Quão difícil essa peça é:</b>
-        <input type="radio" name="cargo" value="pp" checked/> <b>pp</b>
-        <input type="radio" name="cargo" value="p"/> <b>p</b>
-        <input type="radio" name="cargo" value="mf"/> <b>mf</b>
-        <input type="radio" name="cargo" value="f"/> <b>f</b>
-        <input type="radio" name="cargo" value="fff"/> <b>fff</b>
+        <input type="radio" name="dificuldade" value="pp" checked/> <b>pp</b>
+        <input type="radio" name="dificuldade" value="p"/> <b>p</b>
+        <input type="radio" name="dificuldade" value="mf"/> <b>mf</b>
+        <input type="radio" name="dificuldade" value="f"/> <b>f</b>
+        <input type="radio" name="dificuldade" value="fff"/> <b>fff</b>
       </label>
       <div className="avaliar">
         <label>

@@ -1,0 +1,16 @@
+.discussao a {
+  text-decoration: none;
+  color: black;
+}
+
+.discussao a:hover {
+  color: midnightblue;
+}
+
+.discussao .content {
+  background-color: whitesmoke;
+}
+
+.discussao .content:hover {
+  background-color: lightgrey;
+}

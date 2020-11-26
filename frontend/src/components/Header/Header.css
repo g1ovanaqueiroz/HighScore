@@ -1,24 +1,27 @@
 .header-content {
   width: 100%;
-  height: 80px;
-  box-shadow: 0 0 2px;
-  position: initial;
-  background: midnightblue;
-  z-index: 1;
+  height: 5rem;
+  box-shadow: 0 0 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(329.54deg, #191970 0%, #000080 100%);
 }
 
 .header-container .header-content img {
-  width: 50px;
-  position: relative;
-  top: 13px;
-  left: 4px;
+  width: 8vh;
+  margin-left: 0.25rem;
 }
 
-.header-container .header-content .high-score h2 {
+.header-container .header-content .high-score {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  position: relative;
-  bottom: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  margin-inline-start: 40%;
+  margin-inline-end: 60%;
 }
 
 .header-container .header-content .high-score a {
@@ -36,11 +39,11 @@
   -webkit-box-shadow: 1px 1px 2px #333333;
   background: whitesmoke; 
   border:1px solid #000000;
-  width:190px;
-  height: 20px;
+  width:12rem;
+  height: 1.3rem;
   position: absolute;
-  top: 25px;
-  left: 60px;
+  top: 1.6rem;
+  left: 3.7rem;
 }
 
 .header-container .header-content .pesquisa button{

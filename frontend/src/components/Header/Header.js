@@ -9,10 +9,10 @@ export default function Header() {
         <a href='/'>
           <img className="logo" src={logo} alt="HighScore Icon"/>
         </a>
-        <div className='high-score'><h2><a href='/'>HighScore</a></h2></div>
+        <div className='high-score' title="Página inicial"><h2><a href='/'>HighScore</a></h2></div>
         <div class='pesquisa'>
           <input type="text" />
-          <button class="submit-lente" type="submit"><span role="img" aria-label="imagem de lupa">&#x1F50E;</span></button>
+          <button class="submit-lente" title="Pesquisar" type="submit"><span role="img" aria-label="imagem de lupa">&#x1F50E;</span></button>
         </div>
         <form/>
       </div>

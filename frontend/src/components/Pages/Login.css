@@ -1,0 +1,14 @@
+.Form {
+  display: grid;
+  justify-content: center;
+  background: lightblue;
+  height: 40rem;
+  width: 100%;
+}
+
+.Form-Group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 8rem 0 15rem 0;
+}

@@ -6,7 +6,7 @@ export default function PecaResumo (props) {
     <div className='container'>
       <form id="resumo-pecas">
       <a href='/peca' title="Abrir peça">
-        <div class='peca-resumo'>
+        <div className='peca-resumo'>
           <h3>{props.nomePeca}</h3>
           <b>{props.tags}</b>
         </div>

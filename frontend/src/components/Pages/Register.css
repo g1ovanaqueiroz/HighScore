@@ -1,4 +1,8 @@
-.Login {
+.register-container {
+  background: lightblue;
+  height: 50rem;
+}
+.Register {
   display: grid;
   justify-content: center;
   background: lightblue;
@@ -6,14 +10,14 @@
   width: 100%;
 }
 
-.Login-Group {
+.Register-Group {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 40% 0 20% 0;
+  margin: 20% 0 20% 0;
 }
 
-.Login-Field {
+.Register-Field {
   border-style: none;
   border-radius: 5px;
   width: 100%;
@@ -22,17 +26,17 @@
   max-width: 80%;
 }
 
-.Login-Group button {
+.Register-Group button {
   width: 35%;
   margin-top: 2rem;
 }
 
-.Login-Field:focus{
+.Register-Field:focus{
   box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
   outline: none;
 }
 
-.Login-Group a {
+.Register-Group a {
   font-size: 14px;
   margin-top: 2rem;
 }

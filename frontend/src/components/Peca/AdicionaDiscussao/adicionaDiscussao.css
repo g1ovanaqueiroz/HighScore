@@ -1,11 +1,11 @@
-.container {
+.adiciona-container {
   margin-top: 9rem !important;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.container button {
+.adiciona-container button {
   background: rgba(0, 0, 0, .20);
   border-style: none;
   border-radius: 1rem;
@@ -14,23 +14,23 @@
   margin-top: 2rem;
 }
 
-.container button:focus {
+.adiciona-container button:focus {
   background: rgba(0, 0, 0, .5);
   outline: none;
   color: whitesmoke;
 }
 
-.container p {
+.adiciona-container p {
   text-align: center;
 }
 
-.container legend {
+.adiciona-container legend {
   text-align: center;
   font-size: 20px;
   margin-bottom: 2rem;
 }
 
-.container input {
+.adiciona-container input {
   background: rgba(0, 0, 0, .20);
   border-style: none;
   border-radius: 1rem;
@@ -38,7 +38,7 @@
   padding: 1rem;
 }
 
-.container textarea {
+.adiciona-container textarea {
   background: rgba(0, 0, 0, .20);
   border-style: none;
   border-radius: 1rem;  
@@ -46,13 +46,13 @@
   padding: 2rem;
 }
 
-.container input:focus{
+.adiciona-container input:focus{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, .5);
   outline: none;
   transition: all .1s linear;
 }
 
-.container textarea:focus{
+.adiciona-container textarea:focus{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, .5);
   outline: none;
   transition: all .1s linear;

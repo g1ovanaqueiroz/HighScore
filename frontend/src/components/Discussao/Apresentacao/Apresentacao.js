@@ -5,7 +5,7 @@ export default function Apresentacao (props) {
   return (
     <div className="apresentacao">
       <h2>{props.resumo}</h2>
-      {props.descricao}
+      <p>{props.descricao}</p>
     </div>
   );
 }

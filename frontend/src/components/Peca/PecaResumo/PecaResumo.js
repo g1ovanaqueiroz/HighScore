@@ -3,7 +3,7 @@ import './PecaResumo.css'
 
 export default function PecaResumo (props) {
   return (
-    <div className='container'>
+    <div className='peca-resumo-container'>
       <form id="resumo-pecas">
       <a href='/peca' title="Abrir peça">
         <div className='peca-resumo'>

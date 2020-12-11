@@ -1,3 +1,14 @@
 .apresentacao {
   background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apresentacao h2{
+  margin-top: 5rem;
+}
+
+.apresentacao p {
+  margin-top: 3rem;
 }

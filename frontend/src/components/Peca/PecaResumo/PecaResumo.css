@@ -1,20 +1,20 @@
-.container {
+.peca-resumo-container {
   margin-top: 0rem !important;
 }
 
-.container a {
+.peca-resumo-container a {
   text-decoration: none;
   color: black;
 }
 
-.container a:hover {
-  color: midnightblue;
+.peca-resumo-container a:hover {
+  color: whitesmoke;
 }
 
-.container .peca-resumo {
+.peca-resumo-container .peca-resumo {
   background-color: rgba(0, 0, 0, .11);
 }
 
-.container .peca-resumo:hover {
+.peca-resumo-container .peca-resumo:hover {
   background-color:rgba(0, 0, 0, .20);
 }

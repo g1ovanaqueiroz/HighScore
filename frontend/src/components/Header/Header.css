@@ -20,16 +20,10 @@
 .header-content .high-score a {
   color:teal;
   text-decoration: none;
-  text-shadow: black;
 }
 
 .header-content .pesquisa input {
   border-radius:4px;
-  -moz-border-radius:4px;
-  -webkit-border-radius:4px;
-  box-shadow: 1px 1px 2px #333333;    
-  -moz-box-shadow: 1px 1px 2px #333333;
-  -webkit-box-shadow: 1px 1px 2px #333333;
   background: whitesmoke; 
   border:1px solid #000000;
   width:12rem;

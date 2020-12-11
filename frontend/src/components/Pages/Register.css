@@ -1,13 +1,17 @@
 .register-container {
-  background: lightblue;
+  background: linear-gradient(0deg, #4682B4 0%, #000080 100%);
   height: 50rem;
 }
 .Register {
   display: grid;
   justify-content: center;
-  background: lightblue;
+  background: transparent;
   height: 40rem;
   width: 100%;
+}
+
+.Register-Group p {
+  color: teal;
 }
 
 .Register-Group {
@@ -30,6 +34,16 @@
 .Register-Group button {
   width: 35%;
   margin-top: 2rem;
+  background: rgba(0, 0, 0, .20);
+  border-style: none;
+  border-radius: 1rem;
+  padding: .5rem;
+}
+
+.Register-Group button:focus {
+  background: rgba(0, 0, 0, .5);
+  outline: none;
+  color: whitesmoke;
 }
 
 .Register-Field:focus{
@@ -40,11 +54,12 @@
 .Register-Group a {
   font-size: 14px;
   margin-top: 2rem;
+  text-decoration: underline;
+  color: whitesmoke;
 }
 
 .Register-Error {
-  color: midnightblue;
-  background: rgba(0, 0, 0, .20);
+  color: whitesmoke;
   border-radius: 3px;
   margin-top: 1rem;
 }

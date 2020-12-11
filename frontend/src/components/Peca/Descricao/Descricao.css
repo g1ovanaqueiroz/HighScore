@@ -1,8 +1,50 @@
-.descricao h1 {
-  text-align: left;
+.descricao {
+  background: rgba(0, 0, 0, .20);
+  height: 20rem;
 }
 
-.descricao img {
-  height: 300px;
-  float: left;
+.descricao h1 {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.descricao p {
+  text-align: center;
+}
+
+.descricao input {
+  background: rgba(0, 0, 0, .20);
+  border-style: none;
+  border-radius: 1rem;
+  padding: .5rem;
+  margin-top: 1rem;
+}
+
+.descricao input:focus{
+  background: rgba(0, 0, 0, .5);
+  outline: none;
+  color: whitesmoke;
+}
+
+.descricao .tags {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.descricao .tags a:hover {
+  text-decoration: underline;
+}
+
+.descricao .label {
+  margin-top: 3rem;
+}
+
+#rate {
+  margin-left: 1.5rem;
+  margin-right: .8rem;
+}
+
+.avaliar {
+  float: right;
 }

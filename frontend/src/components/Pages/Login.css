@@ -1,7 +1,7 @@
 .Login {
   display: grid;
   justify-content: center;
-  background: lightblue;
+  background: linear-gradient(0deg, #4682B4 0%, #000080 100%);
   height: 40rem;
   width: 100%;
 }
@@ -11,6 +11,10 @@
   align-items: center;
   flex-direction: column;
   margin: 40% 0 20% 0;
+}
+
+.Login-Group p {
+  color: teal;
 }
 
 .Login-Field {
@@ -26,6 +30,16 @@
 .Login-Group button {
   width: 35%;
   margin-top: 2rem;
+  background: rgba(0, 0, 0, .20);
+  border-style: none;
+  border-radius: 1rem;
+  padding: .5rem;
+}
+
+.Login-Group button:focus {
+  background: rgba(0, 0, 0, .5);
+  outline: none;
+  color: whitesmoke;
 }
 
 .Login-Field:focus{
@@ -36,11 +50,13 @@
 .Login-Group a {
   font-size: 14px;
   margin-top: 2rem;
+  text-decoration: underline;
+  color: whitesmoke;
 }
 
 .Login-Error {
-  color: midnightblue;
-  background: rgba(0, 0, 0, .20);
+  color: whitesmoke;
   border-radius: 3px;
   margin-top: 1rem;
+  size: 10rem;
 }

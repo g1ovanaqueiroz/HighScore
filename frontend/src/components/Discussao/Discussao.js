@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import Apresentacao from './Apresentacao/Apresentacao';
 import Forum from './Forum/Forum'
+import './Discussao.css'
 
 export default function Discussao (props) {
   return (

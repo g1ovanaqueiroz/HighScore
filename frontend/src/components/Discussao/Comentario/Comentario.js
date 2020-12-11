@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Comentario.css'
 
 export default function Comentario (props) {
   const [curtido, setCurtido] = useState(undefined)

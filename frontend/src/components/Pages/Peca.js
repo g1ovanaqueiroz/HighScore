@@ -12,15 +12,16 @@ export default function Peca() {
       <Header />
       <Descricao/>
       <AdicionaDiscussao></AdicionaDiscussao>
-      <h2>Discussões abertas</h2>
-      <DiscussaoResumo resumo ="Compassos 12 ao 15" descricao="Estou como confusa com o que fazer nessa parte em que as mãos ficam alternando entre si, porque em todas as peças
-        que aprendi
-        até agora basicamente a mão esquerda só fazia o acompanhamento para a mão direita, que tocava a melodia. Nessa
-        parte
-        é como se a mão esquerda invadisse a parte da mão direita e dividisse a melodia com ela. Alguma dica de como
-        estudar
-        essa parte?"></DiscussaoResumo>
-      <br/> <br/>
+      <div className="discussoes-abertas">
+        <h2>Discussões abertas</h2>
+        <DiscussaoResumo resumo ="Compassos 12 ao 15" descricao="Estou como confusa com o que fazer nessa parte em que as mãos ficam alternando entre si, porque em todas as peças
+          que aprendi
+          até agora basicamente a mão esquerda só fazia o acompanhamento para a mão direita, que tocava a melodia. Nessa
+          parte
+          é como se a mão esquerda invadisse a parte da mão direita e dividisse a melodia com ela. Alguma dica de como
+          estudar
+          essa parte?"></DiscussaoResumo>
+      </div>
       <Footer/>
     </div>
   ])

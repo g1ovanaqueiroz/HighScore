@@ -7,17 +7,17 @@ export default function Comentario (props) {
   const naoCurtir = () => setCurtido(naoCurtirResult())
   return (
     <div className="comentario">
-      <fieldset>
-        <div className="text">
+      <div className="text">
         <h4>{props.nomeUsuario}</h4>
         {props.comentarioConteudo}
+      </div>
+      <div className="botoes">
+        <div className="curtidas">
+          <button className="like" onClick={curtir}>gostei</button>
+          <button className="dislike" onClick={naoCurtir}>não gostei</button>
         </div>
-        <button onClick={curtir}>gostei</button>
-        <button onClick={naoCurtir}>não gostei</button>
-        <input type="text"></input>
-        <button>Responder</button>
-      </fieldset>
-  </div>
+      </div>
+    </div>
   );
 
 function curtirResult() {

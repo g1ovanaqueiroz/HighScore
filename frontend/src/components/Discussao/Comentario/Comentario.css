@@ -1,3 +1,25 @@
 .comentario {
-  background: transparent;
+  background: rgba(0, 0, 0, .20);
+  border-radius: .5rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.comentario .text {
+  margin-left: .5rem;
+}
+
+.comentario .botoes .curtidas button {
+  width: 7%;
+  margin-top: 1rem;
+  background: rgba(0, 0, 0, .20);
+  border-style: none;
+  border-radius: 1rem;
+  padding: .5rem;
+}
+
+.comentario .botoes .curtidas button:focus {
+  background: rgba(0, 0, 0, .5);
+  outline: none;
+  color: whitesmoke;
 }

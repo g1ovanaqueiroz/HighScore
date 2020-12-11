@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-between;
   background: linear-gradient(329.54deg, #191970 0%, #000080 100%);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
 }
 
 .header-content img {
@@ -24,13 +25,15 @@
 
 .header-content .pesquisa input {
   border-radius:4px;
-  background: whitesmoke; 
-  border:1px solid #000000;
+  background: rgba(0, 0, 0, .25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+  border-style: none;
   width:12rem;
   height: 1.3rem;
   position: absolute;
   top: 1.6rem;
   left: 3.7rem;
+  outline:none;
 }
 
 .header-content .pesquisa button{
@@ -41,11 +44,12 @@
   left: 230px;
   border:none;
   background:transparent;
-  outline:none;
+  outline: none;
 }
 
 .header-content .pesquisa {
   width: 200px;
+  outline: none;
 }
 
 .header-content .login a {

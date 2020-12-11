@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import logo from '../assets/highscore_icon.png';
 
-export default function LoginHeader(props) {
+export default function LoginHeader() {
   return (
     <div className='header-content'>
       <a href='/'>

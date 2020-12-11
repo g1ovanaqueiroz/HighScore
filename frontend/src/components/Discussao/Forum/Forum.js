@@ -15,9 +15,11 @@ export default function Forum() {
       </div>
 
       <div className="novos-comentarios">
-        <p>Participe da discussão:</p>
-        <textarea id="comentarios" name="comentario" rows="4" cols="100"> </textarea>
-        <button className="submit-comment btn" type="submit">Publicar</button>
+        <p><b>Participe da discussão:</b></p>
+        <div className="comment-btn">
+          <textarea id="comentarios" name="comentario" rows="4" cols="100"> </textarea>
+          <button className="submit-comment btn" type="submit">Publicar</button>
+        </div>
       </div>
     </div>
   ])

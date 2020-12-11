@@ -1,17 +1,17 @@
-.discussao {
+.discussao-resumo {
   background: transparent;
 }
 
-.discussao a {
+.discussao-resumo a {
   text-decoration: none;
   color: black;
 }
 
-.discussao .content {
+.discussao-resumo .content {
   background-color: rgba(0, 0, 0, .20);
 }
 
-.discussao .content:hover {
+.discussao-resumo .content:hover {
   background-color: rgba(0, 0, 0, .25);
   color: whitesmoke; 
 }

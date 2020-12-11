@@ -1,3 +1,54 @@
 .forum-container {
   background: transparent;
 }
+
+.forum-container h2 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.forum-container .comentarios {
+  margin-top: 3rem;
+}
+
+.forum-container .novos-comentarios {
+  margin-left: .5rem;
+}
+
+.forum-container .novos-comentarios .comment-btn {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.forum-container .novos-comentarios p {
+  margin-top: 5rem;
+  font-size: 1.3rem;
+}
+
+.forum-container .novos-comentarios textarea {
+  background: rgba(0, 0, 0, .20);
+  border-style: none;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+}
+
+.forum-container .novos-comentarios textarea:focus {
+  outline: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+}
+
+.forum-container .novos-comentarios button {
+  background: rgba(0, 0, 0, .20);
+  border-style: none;
+  border-radius: 1rem;
+  height: 2rem;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.forum-container .novos-comentarios button:focus {
+  background: rgba(0, 0, 0, .5);
+  outline: none;
+  color: whitesmoke;
+}

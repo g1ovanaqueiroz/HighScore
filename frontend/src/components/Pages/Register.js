@@ -53,7 +53,7 @@ export default function Register() {
             className="Register-Error"
             />
             <button className="Register-btn" type="submit">Login</button>
-            <a href='/register'>Ainda não é cadastrado? Clique aqui para se cadastrar!</a>
+            <a href='/register'>Já possui conta? Clique aqui para fazer login!</a>
           </div>
         </Form>
       </Formik>

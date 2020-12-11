@@ -57,14 +57,14 @@ export default function Register() {
             className="Register-Field"
             title="senha"
             size="8"
-            maxlength="8"
+            maxLength="8"
             />
             <ErrorMessage
             component="span"
             name="password"
             className="Register-Error"
             />
-            <button className="Register-btn" type="submit">Login</button>
+            <button className="Register-btn" type="submit">Cadastrar</button>
             <a href='/login'>Já possui conta? Clique aqui para fazer login!</a>
           </div>
         </Form>

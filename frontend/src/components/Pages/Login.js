@@ -3,9 +3,15 @@ import LoginHeader from '../Header/LoginHeader'
 import {ErrorMessage, Formik, Form, Field} from 'formik'
 import './Login.css'
 import * as yup from 'yup'
+import axios from 'axios'
 
 export default function Login() {
-  const handleSubmit = values => console.log(values)
+  const handleSubmit = values => {
+    axios.post('http://localhost:3000/v1/api/auth', values)
+    .then(resp => console.log(resp))
+  }
+
+
   const validations = yup.object().shape({
     email: yup.string().email().required(),
     password: yup.string().min(8).required()

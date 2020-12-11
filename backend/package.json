@@ -1,25 +1,16 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "api devweb",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "test",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/giovanaBritoOliveira/HighScore"
-  },
-  "keywords": [
-    "api"
-  ],
-  "author": "Giovana Brito Oliveira",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "consign": "^0.1.6",
-    "express": "^4.17.1",
-    "mongodb": "^3.6.2",
-    "nodemon": "^2.0.4"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
   }
 }

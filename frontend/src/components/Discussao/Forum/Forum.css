@@ -38,7 +38,7 @@
 }
 
 .forum-container .novos-comentarios button {
-  background: rgba(0, 0, 0, .20);
+  background: rgba(0, 0, 0, .5);
   border-style: none;
   border-radius: 1rem;
   height: 2rem;
@@ -51,4 +51,8 @@
   background: rgba(0, 0, 0, .5);
   outline: none;
   color: whitesmoke;
+}
+
+.forum-container .novos-comentarios button:hover {
+  cursor: pointer;
 }

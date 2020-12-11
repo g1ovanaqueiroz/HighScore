@@ -12,10 +12,14 @@
 .comentario .botoes .curtidas button {
   width: 7%;
   margin-top: 1rem;
-  background: rgba(0, 0, 0, .20);
+  background: rgba(0, 0, 0, .2);
   border-style: none;
   border-radius: 1rem;
   padding: .5rem;
+}
+
+.comentario .botoes .curtidas button:hover {
+  cursor: pointer;
 }
 
 .comentario .botoes .curtidas button:focus {

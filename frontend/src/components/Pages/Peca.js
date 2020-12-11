@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Descricao from '../Peca/Descricao/Descricao'
-import AdicionaDiscussao from '../Peca/AdicionaDiscussao/adicionaDiscussao'
+import AdicionaDiscussao from '../Discussao/AdicionaDiscussao/adicionaDiscussao'
 import DiscussaoResumo from '../Discussao/DiscussaoResumo'
 import './Peca.css'
 

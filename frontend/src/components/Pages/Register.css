@@ -29,6 +29,7 @@
   padding: .5rem;
   max-width: 80%;
   transition: all .1s linear;
+  font-size: 1rem;
 }
 
 .Register-Group button {
@@ -46,6 +47,10 @@
   color: whitesmoke;
 }
 
+.Register-Group button:hover {
+  cursor: pointer;
+}
+
 .Register-Field:focus{
   box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
   outline: none;
@@ -61,5 +66,6 @@
 .Register-Error {
   color: whitesmoke;
   border-radius: 3px;
-  margin-top: 1rem;
+  margin-top: .3rem;
+  font-size: .9rem;
 }

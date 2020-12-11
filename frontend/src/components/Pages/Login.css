@@ -25,6 +25,7 @@
   padding: .5rem;
   max-width: 80%;
   transition: all .1s linear;
+  font-size: 1.2rem;
 }
 
 .Login-Group button {
@@ -34,6 +35,10 @@
   border-style: none;
   border-radius: 1rem;
   padding: .5rem;
+}
+
+.Login-Group button:hover {
+  cursor: pointer;
 }
 
 .Login-Group button:focus {
@@ -58,5 +63,6 @@
   color: whitesmoke;
   border-radius: 3px;
   margin-top: 1rem;
-  size: 10rem;
+  margin-top: .3rem;
+  font-size: .9rem;
 }

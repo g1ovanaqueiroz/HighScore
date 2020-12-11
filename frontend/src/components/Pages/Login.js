@@ -7,11 +7,14 @@ import axios from 'axios'
 
 export default function Login() {
   const handleSubmit = values => {
-    axios.post('http://localhost:3000/v1/api/auth', values)
-    .then(resp => console.log(resp))
+    axios.post('http://localhost:8080/register/', values)
+    .then(resp => {
+      const { data } = resp
+      if (data) {
+        localStorage.setItem('app-token', data)
+      }
+    })
   }
-
-
   const validations = yup.object().shape({
     email: yup.string().email().required(),
     password: yup.string().min(8).required()
@@ -41,7 +44,7 @@ export default function Login() {
             className="Login-Field"
             title="senha"
             size="8"
-            maxlength="8"
+            maxLength="8"
             />
             <ErrorMessage
             component="span"

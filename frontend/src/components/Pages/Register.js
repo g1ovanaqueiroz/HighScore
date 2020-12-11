@@ -8,7 +8,9 @@ export default function Register() {
   const handleSubmit = values => console.log(values)
   const validations = yup.object().shape({
     email: yup.string().email().required(),
-    password: yup.string().min(8).required()
+    password: yup.string().min(8).required(),
+    nome: yup.string().required(),
+    sobrenome: yup.string().required()
   })
 
   return ([
@@ -25,10 +27,20 @@ export default function Register() {
             className="Register-Field"
             title="Nome"
             />
+            <ErrorMessage
+            component="span"
+            name="nome"
+            className="Register-Error"
+            />
             <p><b>Sobrenome:</b></p>
             <Field name="sobrenome"
             className="Register-Field"
             title="Sobrenome"
+            />
+            <ErrorMessage
+            component="span"
+            name="sobrenome"
+            className="Register-Error"
             />
             <p><b>Email:</b></p>
             <Field name="email"

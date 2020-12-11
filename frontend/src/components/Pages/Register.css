@@ -24,6 +24,7 @@
   background: rgba(0, 0, 0, .20);
   padding: .5rem;
   max-width: 80%;
+  transition: all .1s linear;
 }
 
 .Register-Group button {
@@ -39,4 +40,11 @@
 .Register-Group a {
   font-size: 14px;
   margin-top: 2rem;
+}
+
+.Register-Error {
+  color: midnightblue;
+  background: rgba(0, 0, 0, .20);
+  border-radius: 3px;
+  margin-top: 1rem;
 }

@@ -20,6 +20,7 @@
   background: rgba(0, 0, 0, .20);
   padding: .5rem;
   max-width: 80%;
+  transition: all .1s linear;
 }
 
 .Login-Group button {
@@ -35,4 +36,11 @@
 .Login-Group a {
   font-size: 14px;
   margin-top: 2rem;
+}
+
+.Login-Error {
+  color: midnightblue;
+  background: rgba(0, 0, 0, .20);
+  border-radius: 3px;
+  margin-top: 1rem;
 }

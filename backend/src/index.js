@@ -7,7 +7,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 require('../controllers/authController')(app);
+require('../controllers/projectController')(app);
 
-app.listen(8099, function(){
+app.listen(8058, function(){
   console.log('server on...')
 });

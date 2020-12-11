@@ -23,6 +23,7 @@ export default function Login() {
             <p><b>Email:</b></p>
             <Field name="email"
             className="Form-Field"
+            title="Email"
             />
             <ErrorMessage
             component="span"
@@ -32,6 +33,9 @@ export default function Login() {
             <p><b>Senha:</b></p>
             <Field name="password"
             className="Form-Field"
+            title="senha"
+            size="8"
+            maxlength="8"
             />
             <ErrorMessage
             component="span"
@@ -40,6 +44,8 @@ export default function Login() {
             />
             <button className="Form-btn" type="submit">Login</button>
           </div>
+
+          <a href='/register'>Ainda não é cadastrado? Clique aqui para se cadastrar!</a>
         </Form>
       </Formik>
     </div>

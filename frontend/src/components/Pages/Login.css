@@ -10,5 +10,27 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 8rem 0 15rem 0;
+  margin: 7rem 0 15rem 0;
+}
+
+.Form-Field {
+  border-style: none;
+  border-radius: 5px;
+  width: 100%;
+  background: rgba(0, 0, 0, .20);
+  padding: .5rem;
+}
+
+.Form-Group button {
+  width: 35%;
+  margin-top: 2rem;
+}
+
+.Form-Field:focus{
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+  outline: none;
+}
+
+.Form a {
+  font-size: 14px;
 }

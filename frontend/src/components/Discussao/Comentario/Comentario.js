@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import './Comentario.css'
 
 export default function Comentario (props) {
   const [curtido, setCurtido] = useState(undefined)
   const curtir = () => setCurtido(curtirResult())
   const naoCurtir = () => setCurtido(naoCurtirResult())
+
   return (
     <div className="comentario">
       <div className="text">

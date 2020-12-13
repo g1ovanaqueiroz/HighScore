@@ -12,6 +12,6 @@ require('../controllers/authController')(app);
 require('../controllers/projectController')(app);
 require('../controllers/pecaController')(app);
 
-app.listen(8084, function(){
+app.listen(8086, function(){
   console.log('server on...')
 });

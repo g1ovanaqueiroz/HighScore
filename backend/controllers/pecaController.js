@@ -30,4 +30,14 @@ router.get('/findall', async(req, res) => {
   });
 })
 
+router.get('/findone', async(req, res) => {
+
+  const { titulo } = req.body
+  const one = await Peca.findOne({titulo})
+  
+  res.send({
+    one,
+  });
+})
+
 module.exports = app => app.use('/peca', router);

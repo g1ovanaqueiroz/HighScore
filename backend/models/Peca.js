@@ -13,6 +13,9 @@ const UserSchema = new mongoose.Schema({
     type: String, 
     required: true,
   },
+  autor: {
+    type: String,
+  },
 });
 
 const Peca = mongoose.model('Peca', UserSchema);

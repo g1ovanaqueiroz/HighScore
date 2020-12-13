@@ -3,9 +3,18 @@ import RegisterHeader from '../Header/RegisterHeader'
 import {ErrorMessage, Formik, Form, Field} from 'formik'
 import './Register.css'
 import * as yup from 'yup'
+import axios from 'axios'
 
 export default function Register() {
-  const handleSubmit = values => console.log(values)
+  const handleSubmit = values => {
+    axios.post('http://localhost:8080/auth/register', values)
+    .then(resp => {
+      const { data } = resp
+      if (data) {
+        localStorage.setItem('app-token', data)
+      }
+    })
+  }
   const validations = yup.object().shape({
     email: yup.string().email().required(),
     password: yup.string().min(8).required(),

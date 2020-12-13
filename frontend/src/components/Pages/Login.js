@@ -7,7 +7,7 @@ import axios from 'axios'
 
 export default function Login() {
   const handleSubmit = values => {
-    axios.post('http://localhost:8064/auth/authenticate', values)
+    axios.post('http://localhost:8080/auth/authenticate', values)
     .then(resp => {
       const { data } = resp
       if (data) {

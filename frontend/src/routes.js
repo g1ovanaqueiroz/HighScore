@@ -1,10 +1,10 @@
 import { BrowserRouter, Route } from  'react-router-dom'
 import React from 'react'
-import Main from './components/Pages/Main'
-import Peca from './components/Pages/Peca'
+import Main from './components/Pages/Home/Main'
+import Peca from './components/Pages/peca/Peca'
 import Discussao from './components/Discussao/Discussao'
-import Login from './components/Pages/Login'
-import Register from './components/Pages/Register'
+import Login from './components/Pages/login/Login'
+import Register from './components/Pages/register/Register'
 
 export default function Routes() {
   return (

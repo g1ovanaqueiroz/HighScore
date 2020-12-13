@@ -1,5 +1,5 @@
 import React from 'react'
-import RegisterHeader from '../Header/RegisterHeader'
+import RegisterHeader from '../../Header/RegisterHeader'
 import {ErrorMessage, Formik, Form, Field} from 'formik'
 import './Register.css'
 import * as yup from 'yup'
@@ -73,7 +73,7 @@ export default function Register() {
             name="password"
             className="Register-Error"
             />
-            <button className="Register-btn" type="submit">Cadastrar</button>
+            <button className="Register-btn" type="submit"><a href='/' id='register-btn-link' >Cadastrar</a></button>
             <a href='/login'>Já possui conta? Clique aqui para fazer login!</a>
           </div>
         </Form>

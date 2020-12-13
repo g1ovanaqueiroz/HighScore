@@ -1,16 +1,31 @@
-import React from 'react'
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
-import Descricao from '../Peca/Descricao/Descricao'
-import AdicionaDiscussao from '../Discussao/AdicionaDiscussao/adicionaDiscussao'
-import DiscussaoResumo from '../Discussao/DiscussaoResumo'
+import React, { useState, useEffect } from 'react';
+import Header from '../../Header/Header'
+import Footer from '../../Footer/Footer'
+import Descricao from '../../Peca/Descricao/Descricao'
+import AdicionaDiscussao from '../../Discussao/AdicionaDiscussao/adicionaDiscussao'
+import DiscussaoResumo from '../../Discussao/DiscussaoResumo'
 import './Peca.css'
 
 export default function Peca() {
+  const [aprendi, setAprendi] = useState("Ainda não aprendi")
+
+  function aprender() {
+    if (aprendi === "Ainda não aprendi") {
+      setAprendi("Aprendi");
+    }
+    else {
+      setAprendi("Ainda não aprendi");
+    }
+  }
+
   return ([
     <div className="peca">
       <Header />
-      <Descricao/>
+      <div class="switch__container">
+        <input onClick={aprender} id="switch-shadow" class="switch switch--shadow" type="checkbox" />
+        <label for="switch-shadow"></label>
+    </div>
+      <Descricao check={aprendi}/>
       <AdicionaDiscussao></AdicionaDiscussao>
       <div className="discussoes-abertas">
         <h2>Discussões abertas</h2>

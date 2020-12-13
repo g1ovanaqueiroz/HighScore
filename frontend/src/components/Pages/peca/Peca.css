@@ -1,0 +1,77 @@
+.peca {
+  background: linear-gradient(0deg, #4682B4 0%, #000080 100%);
+  height: 100rem;
+}
+
+.switch__container {
+  float: right;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.switch {
+  position: absolute;
+  visibility: hidden;
+}
+
+.switch + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+.switch--shadow + label {
+  padding: 1px;
+  width: 60px;
+  height: 30px;
+  background-color: midnightblue;
+  border-radius: 60px;
+}
+
+.switch--shadow + label:before,
+.switch--shadow + label:after {
+  display: block;
+  position: absolute;
+  top: .5px;
+  left: .5px;
+  bottom: .5px;
+  content: '';
+}
+.switch--shadow + label:before {
+  right: .5px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: all 0.4s;
+}
+.switch--shadow + label:after {
+  width: 31px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.switch--shadow:checked + label:before {
+  background-color: midnightblue;
+}
+.switch--shadow:checked + label:after {
+  transform: translateX(30px);
+}
+
+.peca .discussoes-abertas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.peca .discussoes-abertas h2{
+  margin-top: 5rem;
+  color: whitesmoke;
+}
+
+.peca .discussoes-abertas a {
+  color: whitesmoke;
+}

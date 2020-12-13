@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react'
 import './Descricao.css'
 import './Descricao.css'
 
-export default function Descricao() {
+export default function Descricao(props) {
   return (
     <div className="descricao">
+      <span className="aprendi-btn">{props.check}</span>
       <h1>Für Elise</h1>
       <div className="tags">
         <b><a>#piano</a> <a>#iniciante</a> <a>#ludwigVanBeethoven</a> <a>#beethoven</a> <a>#solo</a> <a>#classicismo</a> <a>#romantismo</a></b>

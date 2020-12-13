@@ -1,9 +1,10 @@
-import React from 'react'
-import LoginHeader from '../Header/LoginHeader'
+import React, { useState, useContext } from 'react'
+import LoginHeader from '../../Header/LoginHeader'
 import {ErrorMessage, Formik, Form, Field} from 'formik'
 import './Login.css'
 import * as yup from 'yup'
 import axios from 'axios'
+
 
 export default function Login() {
   const handleSubmit = values => {
@@ -51,11 +52,12 @@ export default function Login() {
             name="password"
             className="Login-Error"
             />
-            <button className="Login-btn" type="submit">Login</button>
+            <button className="Login-btn" type="submit"><a href='/' id='login-btn-link'>Login</a></button>
             <a href='/register'>Ainda não é cadastrado? Clique aqui para se cadastrar!</a>
           </div>
         </Form>
       </Formik>
     </div>
   ])
+
 }

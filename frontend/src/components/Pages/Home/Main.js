@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
-import PecaResumo from '../Peca/PecaResumo/PecaResumo'
+import Header from '../../Header/Header'
+import Footer from '../../Footer/Footer'
+import PecaResumo from '../../Peca/PecaResumo/PecaResumo'
 import './Main.css'
 
 export default function Main() {

@@ -9,6 +9,12 @@
   color: whitesmoke;
 }
 
+.aprendi-btn {
+  float: right;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
 .descricao p {
   text-align: center;
   color: whitesmoke;

@@ -69,3 +69,7 @@
   margin-top: .3rem;
   font-size: .9rem;
 }
+
+#register-btn-link {
+  text-decoration: none;
+}

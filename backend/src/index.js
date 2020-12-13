@@ -10,7 +10,8 @@ app.use(cors({ origin: 'http://localhost:3000' }));
 
 require('../controllers/authController')(app);
 require('../controllers/projectController')(app);
+require('../controllers/pecaController')(app);
 
-app.listen(8080, function(){
+app.listen(8084, function(){
   console.log('server on...')
 });

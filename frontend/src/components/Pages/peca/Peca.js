@@ -5,7 +5,6 @@ import Descricao from '../../Peca/Descricao/Descricao'
 import AdicionaDiscussao from '../../Discussao/AdicionaDiscussao/adicionaDiscussao'
 import DiscussaoResumo from '../../Discussao/DiscussaoResumo'
 import './Peca.css'
-import axios from 'axios'
 
 export default function Peca() {
   const [aprendi, setAprendi] = useState("Ainda não aprendi")

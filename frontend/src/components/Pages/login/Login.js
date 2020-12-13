@@ -1,4 +1,5 @@
-import React, { useState, useContext } from 'react'
+import React, { useState, useContext} from 'react'
+import Context from '../../Authentication/Context'
 import LoginHeader from '../../Header/LoginHeader'
 import {ErrorMessage, Formik, Form, Field} from 'formik'
 import './Login.css'
@@ -6,7 +7,11 @@ import * as yup from 'yup'
 import axios from 'axios'
 
 
-export default function Login() {
+export default function Login(props) {
+  const [user, setUser] = useState('');
+  const [password , setPassoword] = useState('');
+  const {setToken} = useContext(Context)
+
   const handleSubmit = values => {
     axios.post('http://localhost:8080/auth/authenticate', values)
     .then(resp => {
@@ -15,6 +20,14 @@ export default function Login() {
         localStorage.setItem('app-token', data)
       }
     })
+
+    const {token,error} = this.login(user,password)
+    if(token){
+      setToken(token)
+      props.history.push('/')
+    }else {
+      alert(error)
+    }
   }
   const validations = yup.object().shape({
     email: yup.string().email().required(),
@@ -52,7 +65,7 @@ export default function Login() {
             name="password"
             className="Login-Error"
             />
-            <button className="Login-btn" type="submit"><a href='/' id='login-btn-link'>Login</a></button>
+            <button className="Login-btn" type="submit">Login</button>
             <a href='/register'>Ainda não é cadastrado? Clique aqui para se cadastrar!</a>
           </div>
         </Form>
